@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  border: tomato 1px solid;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: grey;
+  font-size: 40px;
+}
+.statList {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.label {
+  color: white;
+  font-size: 23px;
+}
+.percentage {
+  color: white;
+  font-size: 30px;
+}

@@ -1,0 +1,44 @@
+.profile {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  border: gray 1px solid;
+  margin-bottom: 50px;
+}
+.avatar {
+  border-radius: 65px;
+  width: 128px;
+  height: 128px;
+}
+.description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  font-size: 30px;
+}
+.stats {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+  height: 60px;
+  background-color: rgba(192, 186, 186, 0.287);
+  border-top: gray 1px solid;
+}
+.item {
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.item:nth-child(-n + 2) {
+  border-right: 1px solid gray;
+}

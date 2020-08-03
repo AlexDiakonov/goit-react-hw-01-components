@@ -1,0 +1,25 @@
+.transactionHistory {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid rgba(235, 231, 231, 0.787);
+}
+.head {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+.data {
+  text-transform: uppercase;
+  text-align: center;
+  width: 200px;
+}
+.row {
+  height: 30px;
+}
+.row:nth-child(even) {
+  background-color: rgb(194, 192, 192);
+}
+.row1 {
+  background-color: rgb(111, 173, 173);
+  height: 30px;
+}
